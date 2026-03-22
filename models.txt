@@ -1,0 +1,33 @@
+# ===========================================
+# Ollama Models Configuration
+# ===========================================
+# Add or remove models below. Run setup-models.sh to pull them.
+# Browse all models at: https://ollama.com/library
+
+# --- General Purpose ---
+llama3.2:3b          # 2.0 GB | Fast, fits 4GB GPU
+llama3.1:8b          # 4.9 GB | Best general quality
+mistral:7b           # 4.4 GB | Good all-rounder
+gemma2:2b            # 1.6 GB | Lightweight
+
+# --- Reasoning ---
+deepseek-r1:8b       # 5.2 GB | Chain-of-thought reasoning
+phi3.5:3.8b          # 2.2 GB | Strong reasoning, fits GPU
+
+# --- Coding ---
+qwen2.5-coder:7b     # 4.7 GB | Best open-source coding model
+
+# --- Medical ---
+meditron:7b           # 4.1 GB | Clinical guidelines, medical Q&A
+
+# --- Multilingual / Arabic ---
+aya:8b                # 4.8 GB | 23 languages including Arabic
+
+# --- Vision (image understanding) ---
+llava:7b              # 4.5 GB | Describe/analyze uploaded images
+
+# --- Math / Science ---
+qwen2.5:7b            # 4.7 GB | Math, science, structured tasks
+
+# --- Embedding (required for RAG/document chat) ---
+nomic-embed-text      # 274 MB | Document embeddings for RAG

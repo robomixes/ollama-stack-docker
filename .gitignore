@@ -1,0 +1,16 @@
+# Docker volumes and exports
+exports/
+*.tar
+*.tar.gz
+
+# Environment files with secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
